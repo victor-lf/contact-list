@@ -13,7 +13,7 @@ const Contacts = ({navigation}) => {
     fetchContacts();
   });
 
-  // return contacts array to be used with SectionList
+  // return array of contacts to be used with SectionList
   const getData = () => {
     let contactsArr = [];
     let aCode = 'A'.charCodeAt(0);
